@@ -9,8 +9,7 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+        <header>
           <h1>Welcome to React</h1>
           <Link to="/">Home</Link>
           <Link to="/otherpage">Other Page</Link>
